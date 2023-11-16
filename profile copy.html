@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5d2e8a75d6.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./home-style.css">
+    <title>Profile</title>
+</head>
+<body>
+
+    <!-------------------------------- nav bar start------------------------>
+
+    <nav class = "sub-nav">
+        <input type="checkbox" id="check">
+        <label for="check" class="check-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo" for=""> <a href="./index.html"> Health<span>Hive</span></a></label>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <!-- <li><a href="./index.html#Service">Services</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="./subscription.html">Pricing</a></li>
+            
+            <!-- <li><a href="./profile.html">Profile</a></li> -->
+            <li><a href="./index.html">Logout</a></li>
+
+        </ul>
+    </nav>
+<!-------------------------------- nav bar end----------------------->
+
+    <div class="container sub-container profile-dtls">
+        
+        <div class="user-detls">
+            <h3 class="profile-h3">Profile Details</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="" id="" placeholder="First Name" value="Muhammed" readonly>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="" id="" placeholder="Last Name" value="Salih Km" readonly>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="" id="" placeholder="Email" value="Salih@gmail.com" readonly>
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class=" btn logout">Log Out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="table-container">
+            <div class="plan-detls">
+                <h3>Plan Details</h3>
+                <table>
+                    <tr>
+                        <th>Plan Id</th>
+                        <th>Patient Name</th>
+                        <th>Plan</th>
+                        <th>Date</th>
+                        <th>Additionals</th>
+                        <th>Phone</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>S1680522646470</td>
+                        <td>Akaash</td>
+                        <td>Basic Plan</td>
+                        <td>2333-09-09</td>
+                        <td>Palliative Care</td>
+                        <td>3526174836</td>
+                        <td>
+                            <button type="button" class="btn btn-pending">Pendind</button>
+                        </td>
+                    </tr>
+                        <td>S1680522646470</td>
+                        <td>Akaash</td>
+                        <td>Basic Plan</td>
+                        <td>2333-09-09</td>
+                        <td>Palliative Care</td>
+                        <td>23345674839</td>
+                        <td>
+                            <button type="button" class="btn  btn-completed" disabled>Completed</button>
+                        </td>
+                    </tr>
+                        <td>S1680522646470</td>
+                        <td>Akaash</td>
+                        <td>Basic Plan</td>
+                        <td>2333-09-09</td>
+                        <td>Palliative Care</td>
+                        <td>1234567890</td>
+                        <td>
+                            <button type="button" class="btn btn-faild ">Complete Payment</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+
+    
+</body>
+</html>
